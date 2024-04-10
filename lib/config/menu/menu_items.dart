@@ -16,5 +16,7 @@ class MenuItem {
 const appMenuItems = <MenuItem>[
     MenuItem(title: 'Botones', subTitle: 'Varios botones', link: '/buttons', icon: Icons.smart_button_outlined),
     MenuItem(title: 'Tarjetas', subTitle: 'Un contenedor estilizado', link: '/cards', icon: Icons.credit_card),
+    MenuItem(title: 'ProgressIndicators', subTitle: 'Generales y controlados', link: '/progress', icon: Icons.refresh_rounded),
+    MenuItem(title: 'Snackbars', subTitle: 'Mensajes flotante', link: '/snackbars', icon: Icons.message),
 
   ];
