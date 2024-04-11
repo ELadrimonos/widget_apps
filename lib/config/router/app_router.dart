@@ -31,7 +31,7 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
       name: UIControlsScreen.name,
       builder: (context, state) => const UIControlsScreen()),
   GoRoute(
-      path: '/infinite',
+      path: '/infinite-scroll',
       name: InfiniteScrollScreen.name,
       builder: (context, state) => const InfiniteScrollScreen()),
   GoRoute(
