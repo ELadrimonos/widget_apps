@@ -30,7 +30,11 @@ class SnackbarScreen extends StatelessWidget {
                     onPressed: () => context.pop(),
                     child: const Text('Cancelar')),
                 FilledButton(
-                    onPressed: () => context.pop(), child: const Text('Ok')),
+                    onPressed: () => context.pop(),
+                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(const Color.fromRGBO(
+                        197, 12, 12, 0.8784313725490196))),
+                    child: const Text('Ok'),
+                ),
               ],
             ));
   }
