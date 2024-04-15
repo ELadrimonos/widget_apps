@@ -15,6 +15,11 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+      title: 'Contador',
+      subTitle: 'Contador incrementable con riverpod',
+      link: '/counter',
+      icon: Icons.add),
+  MenuItem(
       title: 'Botones',
       subTitle: 'Varios botones',
       link: '/buttons',
@@ -43,7 +48,7 @@ const appMenuItems = <MenuItem>[
       title: 'UI Controls',
       subTitle: 'Controles de la interfaz',
       link: '/ui-controls',
-      icon: Icons.settings),
+      icon: Icons.settings_outlined),
   MenuItem(
       title: 'InfiniteScroll y Pull',
       subTitle: 'Scroll infinito con refresco de pagina',
@@ -54,4 +59,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Tutorial de la app',
       link: '/tutorial',
       icon: Icons.help_center),
+  MenuItem(
+      title: 'Tema de la aplicación',
+      subTitle: 'Cambiar el tema',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];
